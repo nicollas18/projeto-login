@@ -33,6 +33,14 @@ Grndes telas: acima de 1201px
         width: 70%;
         height: 100%;
     }
+
+    #login > div > h1 {
+        text-align: center;
+    }
+    
+    #login > div > p {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width: 769px){
@@ -46,15 +54,26 @@ Grndes telas: acima de 1201px
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
     }
+
+    #login > div > h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #login > div > p {
+        font-size: 1.2em;
+    }
+
+    
     
 }
