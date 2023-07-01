@@ -11,7 +11,7 @@ Grndes telas: acima de 1201px
 
 */
 
-@media screen and (min-width: 481px) and (max-width:768px){
+@media screen and (min-width: 481px) and (max-width:1000px){
 
     body {
         background-image: linear-gradient(to top, #4ca049, #5f2c82);
@@ -19,6 +19,7 @@ Grndes telas: acima de 1201px
     
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #imagem {
@@ -41,16 +42,22 @@ Grndes telas: acima de 1201px
     #login > div > p {
         font-size: 0.8em;
     }
+
+    .campo >input {
+        transform: translateY(-13px);
+    }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1000px){
 
     body {
         background-image: linear-gradient(to top, #4ca049, #5f2c82);
+        
     }
 
     #login {
-        width: 650px;
+        width: 850px;
+        height: 300px;
     }
 
     #imagem {
@@ -72,6 +79,10 @@ Grndes telas: acima de 1201px
     
     #login > div > p {
         font-size: 1.2em;
+    }
+
+    .campo >input {
+        transform: translateY(-12.5px);
     }
 
     
